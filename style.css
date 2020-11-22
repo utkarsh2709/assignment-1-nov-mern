@@ -17,6 +17,8 @@ body {
   transform: translate(-50%,-50%);
   box-sizing: border-box;
   padding: 55px 30px 70px 30px;
+  box-shadow: 8px 8px orangered;
+  border-radius: 50px;
 }
 
 .user-image{

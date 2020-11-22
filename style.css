@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(./Images/background.png);
+  background-size: auto;
+  font-family: sans-serif;
+}
+
+.loginbox{
+  width: 300px;
+  height: 400px;
+  background: whitesmoke;
+  color: black;
+  top: 44%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 55px 30px 70px 30px;
+}
+
+.user-image{
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 60px);
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.loginbox label{
+  margin: 0px;
+  margin-top: -5px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: rgb(34, 16, 16);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.loginbox input[type="reset"] {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  background-color: rgb(87, 10, 10);
+  color: azure;
+}
+
+.loginbox form button[type="submit"] {
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(87, 10, 10);
+  color: azure;
+}
+
+.loginbox form button[type="submit"]:hover,input[type="reset"]:hover {
+  background-color: rgb(29, 7, 7);
+}
+
+.loginbox form a.extra {
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.loginbox form a:hover {
+  color: rgb(26, 51, 128);
+}
+
+#bottom {
+  position: relative;
+  height: 90px;
+  margin-top: 540px;
+  clear: both;
+}
+
+#bottom h1 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  text-align: center;
+}
+
+#bottom .contact {
+  margin-left: calc(43% - 100px);
+  position: relative;
+}
+
+.contact .contact-logo {
+  margin: 0px;
+  padding: 10px;
+}
